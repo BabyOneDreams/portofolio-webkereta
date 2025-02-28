@@ -1,0 +1,40 @@
+/* Custom styling */
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+/* Style for the container to make it centered */
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #007bff;
+}
+
+.form-register, .form-login {
+    padding: 15px;
+}
+
+button {
+    background-color: #007bff;
+    border: none;
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Input fields */
+input, select {
+    border-radius: 5px;
+}

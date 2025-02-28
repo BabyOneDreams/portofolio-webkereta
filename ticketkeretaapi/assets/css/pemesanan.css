@@ -1,0 +1,96 @@
+/* Reset dasar untuk tata letak */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style umum untuk body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling untuk header */
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 32px;
+    color: #333;
+}
+
+/* Styling untuk form */
+form {
+    width: 60%;
+    margin: 30px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling untuk label dan input */
+label {
+    font-weight: bold;
+    margin-bottom: 8px;
+    display: inline-block;
+}
+
+input, select, button {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Styling untuk tombol submit */
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Styling untuk pesan sukses atau error */
+p {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+p[style="color: green;"] {
+    color: green;
+}
+
+p[style="color: red;"] {
+    color: red;
+}
+
+/* Styling untuk select options */
+select {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+}
+
+/* Gaya tambahan untuk input dengan fokus */
+input:focus, select:focus, button:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+/* Styling untuk container */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}

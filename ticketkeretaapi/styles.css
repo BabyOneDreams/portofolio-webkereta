@@ -1,0 +1,121 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom, #e4cfa3, #c8b08a);
+    color: #5c3d2e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* Form Container */
+.form-container {
+    background: #f5e4c3;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 400px;
+}
+
+/* Form Title */
+.register-form h2,
+.login-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #5c3d2e;
+    text-transform: uppercase;
+    border-bottom: 2px solid #c4a484;
+    padding-bottom: 10px;
+}
+
+/* Form Groups */
+.form-group {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    background: transparent;
+    border: 2px solid #c4a484;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #5c3d2e;
+    outline: none;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.form-group input:focus {
+    border-color: #8b5e3c;
+    box-shadow: 0 0 5px rgba(139, 94, 60, 0.5);
+}
+
+.form-group label {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    font-size: 1rem;
+    color: #8b5e3c;
+    background: #f5e4c3;
+    padding: 0 5px;
+    pointer-events: none;
+    transition: all 0.3s;
+}
+
+.form-group input:focus + label,
+.form-group input:not(:placeholder-shown) + label {
+    top: -15px;
+    left: 10px;
+    font-size: 0.8rem;
+    color: #5c3d2e;
+}
+
+/* Button */
+.btn {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background: #8b5e3c;
+    border: none;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn:hover {
+    background: #70482a;
+    transform: scale(1.05);
+}
+
+/* Form Footer */
+.form-footer {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 0.9rem;
+    color: #8b5e3c;
+}
+
+.form-footer a {
+    color: #8b5e3c;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.form-footer a:hover {
+    color: #5c3d2e;
+}

@@ -1,0 +1,118 @@
+/* Reset dasar */
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+/* Sidebar */
+.sidebar {
+    height: 1000vh;
+    background: #000957; /* Dark blue */
+    color: #fff;
+    padding: 20px;
+}
+
+.sidebar a {
+    color: #FFEB00; /* Yellow */
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.sidebar a:hover {
+    background: #344CB7; /* Light blue */
+}
+
+/* Konten utama */
+.main-content {
+    padding: 20px;
+}
+
+/* Kartu dashboard */
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-header {
+    background: #577BC1; /* Medium blue */
+    color: #fff;
+    border-radius: 10px 10px 0 0;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+/* List group */
+.list-group-item {
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.list-group-item:hover {
+    background: #f1f1f1;
+}
+
+/* Tombol Logout */
+.btn-logout {
+    background: #FFEB00; /* Yellow */
+    color: #000957; /* Dark blue */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.btn-logout:hover {
+    background: #344CB7; /* Light blue */
+}
+
+/* Profil Admin */
+.admin-profile {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.admin-profile img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+
+.admin-profile h4 {
+    margin: 0;
+    font-size: 18px;
+}
+
+/* Statistik Dashboard */
+.stats-card {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.stats-card .card {
+    flex: 1;
+    margin: 0 10px;
+    text-align: center;
+}
+
+.stats-card i {
+    font-size: 40px;
+    color: #344CB7; /* Light blue */
+}
